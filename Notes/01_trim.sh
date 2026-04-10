@@ -22,3 +22,5 @@ chmod +x ../code/polyGfilter.sh
 find poly-G-trimmed/ -size 0 -print -delete
 
 ## Proceed to 02_cutadapt.sh
+
+made changes here 
