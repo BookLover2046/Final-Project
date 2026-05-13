@@ -1,4 +1,4 @@
-# Aerosol Exposure of Cytotoxins Produced by Cyanobacteria Serve as a Risk Factor for Developing Neurodegenerative Diseases 
+# Aerosol Exposure of Cytotoxins Produced by Cyanobacteria Serve as a Risk Factor for Neurodegenerative Diseases 
 
 ## Author 
 Hannah Muskavitch 
