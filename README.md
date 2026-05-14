@@ -5,7 +5,7 @@ Hannah Muskavitch
 
 ## Introduction 
 
-    The pathologies of neurodegenerative diseases, such as Alzheimer's disease (AD), Parkinson’s disease (PD), and amyotrophic lateral sclerosis 
+The pathologies of neurodegenerative diseases, such as Alzheimer's disease (AD), Parkinson’s disease (PD), and amyotrophic lateral sclerosis 
 (ALS), are heavily studied due to their rising prevalence in the human population (Sini et al, 2021).  However, recent pathological studies of AD show that the hyperphosphorylation of microtubule binding protein tau can lead to genomic instability and the expression of human endogenous retroviral (HERV) elements that cause neurodegeneration (Kumar and Beck, 2026; Guo et al, 2018).  Further studies of HERV elements and their role in neurodegeneration are found to be associated with neurotoxicity and demyelination (Dawson et al, 2023; Wegmann et al, 2021).  In addition to tau leading to the expression of HERV elements, the overexpression of mutated tau proteins is also associated with synaptic dysfunction, extracellular β-amyloid (Aβ) plaques, and intracellular neurofibrillary tangles that lead to neurodegeneration (Kumar and Beck, 2026; Guo et al, 2018; Wegmann et al, 2021; Chee et al, 2005).
 
 ## Methods 
