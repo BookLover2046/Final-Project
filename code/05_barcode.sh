@@ -3,7 +3,7 @@
 primer="16s_V4-V5"
 projname="Cyanobac_${primer}"
 
-## replace with the qiime2 environment youve been using
+## Enter QIME2 conda environment 
 conda activate qiime2-amplicon-2026.1
 
 cp /tmp/GEN711-811_data/Cyanobacteria/metadata/pico-mdat.tsv data/metadata/metadata
@@ -46,7 +46,7 @@ qiime diversity core-metrics-phylogenetic \
 
 ## Run this command to move the .qzv files to the plots directory
 
- mv ~/Final-Project/data/results/Cyanobac_16s_V4-V5_core-metrics-data/*.qza ~/Final-Project/plots/
+ mv ~/Final-Project/data/results/Cyanobac_16s_V4-V5_core-metrics-data/*.qzv ~/Final-Project/plots/
 
 ## If you need to re-run the diversity core-metrics-phylogenetic command, you will need to delete the data/results/${projname}_core-metrics-data/ directory before re-running the command, otherwise you will get an error about the directory already existing. You can do this with the following command:    
 rm -rf data/results/${projname}_core-metrics-data/

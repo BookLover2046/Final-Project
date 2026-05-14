@@ -12,3 +12,6 @@ Hannah Muskavitch
 ## Discussion
 
 ## References 
+
+Wong RG, Wu JR, Gloor GB. 2016. Expanding the UniFrac Toolbox. PLoS ONE. 11(16): e0161196. 
+    DOI: 10.1371/journal.pone.0161196.
