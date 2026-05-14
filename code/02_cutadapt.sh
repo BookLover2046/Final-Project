@@ -1,8 +1,10 @@
 #!/bin/bash
 
-### THIS IS WHERE PROJECTS BEGIN TO DIVERGE. The cutadapt parameters and primers will depend on the project. See qiime2_parameters.sh for cutadapt parameters and 01_trim.sh for polyG filter parameters.
+### Set project variables
 primer=16s_V4-V5
 projname="Cyanobac_${primer}"
+
+## Enter QIIME2 conda environment 
 
 conda activate qiime2-amplicon-2026.1
 
@@ -14,12 +16,16 @@ qiime tools import \
     --output-path data/results/${projname}_demux 
 
 
-## copied from qiime2_parameters.sh
+## Setting forward and reverse primers 
 fw='^GTGYCAGCMGCCGCGGTAA'	
 rv='^CCGYCAATTYMTTTRAGTTT'
+
+## Set configuration for qiime's cutadapt tool 
 cutadapt_config="--p-front-f $fw --p-front-r $rv"
 
 ### See qiime2_parameters.sh for cutadapt parameters and 01_trim.sh for polyG filter parameters.
+
+## import qiime tools 
 qiime cutadapt trim-paired \
   --i-demultiplexed-sequences data/results/${projname}_demux.qza \
   --p-error-rate 0.12 \
@@ -31,6 +37,9 @@ qiime cutadapt trim-paired \
   --o-trimmed-sequences data/results/${projname}_demux_cutadapt.qza \
   --verbose
 
+## Summarize generated data in an analyzable .qzv file format that can be later plotted 
 qiime demux summarize \
     --i-data data/results/${projname}_demux_cutadapt.qza \
     --o-visualization data/results/${projname}_demux_cutadapt.qzv
+
+### Proceed to 03_denoise.sh for next step 

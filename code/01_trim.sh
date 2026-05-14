@@ -1,7 +1,12 @@
 #!/bin/bash
+
+## Set polyGfilters first using code in polyGfilter.sh file before starting the trimming step
+
+## Activate genomics conda environment 
 conda activate genomics
 
-cd ~/gen711-811-example
+## Enter Final-Project directory to analyze Cyanobacteria data 
+cd ~/Final-Project
 
 polyg_len=200 ## copied from qiime2_parameters.sh
 
