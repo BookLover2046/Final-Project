@@ -37,6 +37,18 @@ A QIIME feature table and filter sample tool was used to retain or discard sampl
 
 ## Results 
 
+![Bray Curtis Emperor Plot](./plots/Bray_Curtis_Emperor_Plot.png)
+Figure 2:
+
+![Jaccard Emperor Plot](./plots/Jaccard%20Emperor%20Plot.png)
+Figure 3:
+
+![Unweighted Unifrac Plot](./plots/Unweighted%20Unifrac%20Plot%20.png)
+Figure 4:
+
+![Weighted Unifrac Plot](./plots/Weight%20Unifrac%20Plot.png)
+Figure 5:
+
 ## Discussion
 
 ## References 
