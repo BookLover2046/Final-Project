@@ -17,6 +17,11 @@ Overall, findings that pertain to increases in cyanobacterial genera and species
 
 ## Methods 
 
+Cyanobacteria 16s rRNA gene fastq.gz files containing the data from the 2024 to 2025 cyanobacterial monitoring of Lake Tahoe from the LTAP were analyzed in QIIME.
+
+In the genomics anaconda environment, Poly-G trimming was performed to remove poly-G tails from the DNA sequences of the 16s rRNA gene and artificial strings of guanine (G) bases that the Illumina sequencer may have added on to the ends of the DNA strand.  Empty files that were generated as part of the poly-G filter function were then removed prior to qiime import of fastq files to generate a QIIME Zipped Artifact (qza) file of the demultiplexed sequences that will used for downstream qiime analyses.
+
+
 ## Results 
 
 ## Discussion
