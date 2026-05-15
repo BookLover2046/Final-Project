@@ -10,8 +10,8 @@ conda activate qiime2-amplicon-2026.1
 
 ### import fastqs. Add the demultiplexed sequences to the data/results directory. This will create a .qza file that can be used for cutadapt and qiime2 downstream analyses.
 qiime tools import \
-    --type "SampleData[PairedEndSequencesWithQuality]"  \
-    --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+    --type "Cyanobacteria[PairedEndSequencesWithQuality]"  \
+    --input-format 16srRNACyanobacteriaSample \
     --input-path data/poly-G-trimmed \
     --output-path data/results/${projname}_demux 
 
