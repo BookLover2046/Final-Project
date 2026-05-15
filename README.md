@@ -23,7 +23,15 @@ In the genomics anaconda environment, Poly-G trimming was performed to remove po
 
 The QIIME2 anaconda environment was then activated and used to initially import the fastq files of the demultiplexed sequences in a qza format that were inputted into the qiime cutadapt tool.  The cutadapt tool in qiime was used to trim the forward (GTGYCAGCMGCCGCGGTAA) and reverse (ATTYMTTTRAGTTT) primers of the 16s rRNA gene to generate demultiplexed cutadapt qza files.  Demultiplexed cutadapt qza files were then inputted into the QIIME DADA2 denoise-paired tool to filter out noise and chimeras and to merge and overlap paired-end reads to generate Amplicon Sequencing Variants (ASVs) according to left and right truncation parameters of 220 bases and 215 bases, respectively.  The generated files from the DADA2 denoising tool were a representative sequence qza file that contained the exact ASV sequences, a feature table that detailed ASV abundance per sample, and a denoising stats file that tracked how many reads were kept or discarded at each filtering step.
 
+![foward and reverse reads frequency histogram](./plots/html_plots/foward%20and%20reverse%20cutadapt.png)
+Figure 1: 
+
+![Table for Forward and Reverse Sequence Counts](./plots/html_plots/Table%20for%20Foward%20and%20Reverse%20Sequence%20Count.png)
+Table 1: Foward and reverse demultiplexed sequence counts that on average show a higher read count of filter water (WLW) samples compared to air (AIR) samples from around Lake Tahoe. 
+
 The representative sequence file generated from the DADA2 denoising tool was inputted in the QIIME2 classifier tool with to compare the inputted file with three reference databases of the 16s rRNA.  A parameter used for the classifier tool allowed for a query coverage of 75% between the input file and the reference databases.  Additionally, a max accepts parameter of 10 matches was set for the classifier tool to target and accept 10 good sequence alignments per query sequence in the reference databases prior to identifying taxonomic consensus from those hits.  From the hits generated, a percent identity of 75% is applied in which a reference match below the percentage is excluded from the taxonomic consensus with a weak ID of 65% being applied to report weak hits below the percent identity to capture and include those matches as distant relatives in the taxonomic consensus.  After the QIIME2 classifier was run, a hybrid taxonomy qza file is generated to be used to generate a taxonomic bar plot.
+
+
 
 ## Results 
 
