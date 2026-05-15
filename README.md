@@ -29,7 +29,10 @@ Guo C, Jeong HH, Hsieh YC, Klein HU, Bennet DA, De Jager PL, Liu Z, and Shulman 
     DOI: 10.1016/j.celrep.2018.05.004.
 
 Kumar V and Beck S. 2026. Cellular insights into transposable elements in Alzheimer's disease. Front Mol Biosci. 12:1642599. 
-    DOI: 10.3389/fmolb.2025.1642599.  
+    DOI: 10.3389/fmolb.2025.1642599.
+
+Mackey KRM, Hunter D, Fischer EV, Jiang Y, Allen B, Chen Y, Liston A, Reuter J, Schladow G, Paytan A. 2013. Aerosol-nutrient-induced picoplankton growth in Lake Tahoe. J Geophys Res Biogeosci. 118:1054-1067.
+    DOI: 10.1002/jgrg.20084.
 
 Morris, ZJ, Stommel EW, Metcalf JS. 2025. Airborne cyanobacterial toxins and their links to neurodegenerative diseases. Molecules. 30:2320.
     DOI: 10.3390/molecules30112320.
