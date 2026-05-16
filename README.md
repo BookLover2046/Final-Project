@@ -38,13 +38,13 @@ A QIIME feature table and filter sample tool was used to retain or discard sampl
 ## Results 
 
 ![Bray Curtis Emperor Plot](./plots/Bray_Curtis_Emperor_Plot.png)
-Figure 2:
+Figure 2: Bray-Curtis disimilarity principle coordinate analysis (PCoA) plot qauntifies how dissimilar two data points are based on read counts.  Points closest to Axis 1 have 20.34% variance, points closest to Axis 2 have 11.34% variance, and points closest to Axis 3 have 8.585% variance.  Air samples AIR-EW (red), AIR-TK (blue), and AIR-VP (orange) are clustered on the PCoA plot indicating low levels of variance between the samples.  Water samples WLW-EW (bright yellow) and WLW-VP (pink) are clustered close together near Axis 3, indcating low levels of variance between the two samples.  WLW-TK (light blue) sample is significantly more varied compared to the WLW-EW and WLW-VP samples.
 
 ![Jaccard Emperor Plot](./plots/Jaccard%20Emperor%20Plot.png)
-Figure 3:
+Figure 3: Jaccard PCoA plot determines how similar samples are based upon the prescence or absence of bacterial species without considering the number of reads.  Points clustered near Axis 1 display variance close to 13.76%, points clustered near Axis 2 display variance close to 8.571%, and points clustered near Axis 3 display variance close to 6.902%.  Air samples, AIR-EW (red), AIR-TK (blue), and AIR-VP (orange), are clustered on Axis 3 have a low degree of variance close to 6.902%.  Water samples, WLW-EW (bright yellow) and WLW-VP (pink), are close to one another towards the top of Axis 2.  WLW-TK (light blue) sample is significantly distanced from WLW-EW and WLW-VP on Axis 2 and displays a higher degree of variance compared to the other water samples.
 
 ![Unweighted Unifrac Plot](./plots/Unweighted%20Unifrac%20Plot%20.png)
-Figure 4:
+Figure 4: Unweighted Unifrac PCoA plot indicates the presence or absence of 
 
 ![Weighted Unifrac Plot](./plots/Weight%20Unifrac%20Plot.png)
 Figure 5:
