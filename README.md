@@ -63,6 +63,9 @@ The Weighted Unifrac plots applies branch length of the phylogenetic tree and we
 
 ## Conclusion
 
+In conclusion, monitoring of cyanobacterial blooms in both Lake Tahoe and Lake Winnipesaukee is important for human health, as some cyanobacterial genera and species have been previously identified as producing aerosol neurotoxins that can contribute to neurodegeneration (Sini et al, 2021).  In recent years, the rate of diagnosed patients with neurodegenerative diseases, such as AD, slowly increasing.  For instance, a study in 2010 reported that by 2050 more than 13 million individuals in the United States may be diagnosed with dementia, which is clinically associated with AD disease progression (Guo et al, 2018).  Understanding disease pathology of neurodegenerative diseases and factors contributing to disease progression is vital for the development of future treatments.  Studies focused on determining how neurotoxic cyanotoxins promote neurodegeneration and affect cognition in mammalian and human brains would be vital in the development of future AD, PD, and ALS treatments (Sini et al, 2021).
+
+The identification of cyanobacterial genera and species known to produce aerosol neurotoxic cyanotoxins in Lake Tahoe and Lake Winniepsaukee would be important information to provide the public and allow for government advisement on which areas to avoid around each lake and whether tourism around these lakes should be permitted during times of high cyanobacterial blooming. 
 
 ## References 
 
